@@ -1,4 +1,3 @@
-// server/socket.js
 const Room = require('./models/Room');
 
 module.exports = (io) => {

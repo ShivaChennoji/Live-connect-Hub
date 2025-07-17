@@ -1,9 +1,8 @@
-// server/routes/roomRoutes.js
 const express = require('express');
 const Room = require('../models/Room');
 const router = express.Router();
 
-// Create or fetch room
+
 router.post('/', async (req, res) => {
   const { roomId } = req.body;
 
