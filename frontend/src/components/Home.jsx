@@ -26,13 +26,13 @@ export default function Home() {
         />
         <button
           onClick={() => nav(`/room/${code.trim()}`)}
-          className="w-full bg-blue-600 hover:bg-blue-700 transition py-2 rounded-lg"
+          className="w-full bg-blue-600 hover:green-700 transition py-2 rounded-lg"
         >
           Join Room
         </button>
         <button
           onClick={handleCreateRoom}
-          className="w-full bg-green-600 hover:bg-green-700 transition py-2 rounded-lg"
+          className="w-full bg-blue-600 hover:bg-green-700 transition py-2 rounded-lg"
         >
           Create New Room
         </button>

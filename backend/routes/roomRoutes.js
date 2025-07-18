@@ -10,7 +10,6 @@ router.post('/', async (req, res) => {
   if (!room) {
     room = await Room.create({ roomId, users: [] });
   }
-
   res.json(room);
 });
 

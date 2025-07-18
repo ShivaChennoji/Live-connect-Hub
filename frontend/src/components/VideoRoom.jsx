@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { io } from 'socket.io-client';
-const socket = io("https://video-streaming-app-c4vp.onrender.com");
+// const socket = io("https://video-streaming-app-c4vp.onrender.com");
+
+const socket = io('http://localhost:5000');
 
 export default function VideoRoom() {
   const { roomId } = useParams();
